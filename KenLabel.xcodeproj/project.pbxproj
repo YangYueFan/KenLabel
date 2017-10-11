@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95F65C781F8E0AA400ECB006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C771F8E0AA400ECB006 /* main.m */; };
+		95F65C7B1F8E0AA400ECB006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C7A1F8E0AA400ECB006 /* AppDelegate.m */; };
+		95F65C7E1F8E0AA400ECB006 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C7D1F8E0AA400ECB006 /* ViewController.m */; };
+		95F65C811F8E0AA500ECB006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F65C7F1F8E0AA500ECB006 /* Main.storyboard */; };
+		95F65C831F8E0AA500ECB006 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F65C821F8E0AA500ECB006 /* Assets.xcassets */; };
+		95F65C861F8E0AA500ECB006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F65C841F8E0AA500ECB006 /* LaunchScreen.storyboard */; };
+		95F65C911F8E0AA700ECB006 /* KenLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C901F8E0AA700ECB006 /* KenLabelTests.m */; };
+		95F65C9C1F8E0AA700ECB006 /* KenLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65C9B1F8E0AA700ECB006 /* KenLabelUITests.m */; };
+		95F65CAC1F8E0AF700ECB006 /* KenLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65CAB1F8E0AF700ECB006 /* KenLabel.m */; };
+		95F65CAF1F8E0C1800ECB006 /* KenLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F65CAE1F8E0C1800ECB006 /* KenLabelModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95F65C8D1F8E0AA600ECB006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F65C6B1F8E0AA400ECB006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F65C721F8E0AA400ECB006;
+			remoteInfo = KenLabel;
+		};
+		95F65C981F8E0AA700ECB006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95F65C6B1F8E0AA400ECB006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F65C721F8E0AA400ECB006;
+			remoteInfo = KenLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95F65C731F8E0AA400ECB006 /* KenLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F65C771F8E0AA400ECB006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95F65C791F8E0AA400ECB006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95F65C7A1F8E0AA400ECB006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95F65C7C1F8E0AA400ECB006 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95F65C7D1F8E0AA400ECB006 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95F65C801F8E0AA500ECB006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95F65C821F8E0AA500ECB006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95F65C851F8E0AA500ECB006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95F65C871F8E0AA500ECB006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F65C8C1F8E0AA600ECB006 /* KenLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F65C901F8E0AA700ECB006 /* KenLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KenLabelTests.m; sourceTree = "<group>"; };
+		95F65C921F8E0AA700ECB006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F65C971F8E0AA700ECB006 /* KenLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KenLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F65C9B1F8E0AA700ECB006 /* KenLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KenLabelUITests.m; sourceTree = "<group>"; };
+		95F65C9D1F8E0AA700ECB006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F65CAA1F8E0AF700ECB006 /* KenLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenLabel.h; sourceTree = "<group>"; };
+		95F65CAB1F8E0AF700ECB006 /* KenLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenLabel.m; sourceTree = "<group>"; };
+		95F65CAD1F8E0C1800ECB006 /* KenLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenLabelModel.h; sourceTree = "<group>"; };
+		95F65CAE1F8E0C1800ECB006 /* KenLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenLabelModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95F65C701F8E0AA400ECB006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C891F8E0AA600ECB006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C941F8E0AA700ECB006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F65C6A1F8E0AA400ECB006 = {
+			isa = PBXGroup;
+			children = (
+				95F65C751F8E0AA400ECB006 /* KenLabel */,
+				95F65C8F1F8E0AA600ECB006 /* KenLabelTests */,
+				95F65C9A1F8E0AA700ECB006 /* KenLabelUITests */,
+				95F65C741F8E0AA400ECB006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95F65C741F8E0AA400ECB006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95F65C731F8E0AA400ECB006 /* KenLabel.app */,
+				95F65C8C1F8E0AA600ECB006 /* KenLabelTests.xctest */,
+				95F65C971F8E0AA700ECB006 /* KenLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95F65C751F8E0AA400ECB006 /* KenLabel */ = {
+			isa = PBXGroup;
+			children = (
+				95F65CA91F8E0AE300ECB006 /* KenLabel */,
+				95F65C791F8E0AA400ECB006 /* AppDelegate.h */,
+				95F65C7A1F8E0AA400ECB006 /* AppDelegate.m */,
+				95F65C7C1F8E0AA400ECB006 /* ViewController.h */,
+				95F65C7D1F8E0AA400ECB006 /* ViewController.m */,
+				95F65C7F1F8E0AA500ECB006 /* Main.storyboard */,
+				95F65C821F8E0AA500ECB006 /* Assets.xcassets */,
+				95F65C841F8E0AA500ECB006 /* LaunchScreen.storyboard */,
+				95F65C871F8E0AA500ECB006 /* Info.plist */,
+				95F65C761F8E0AA400ECB006 /* Supporting Files */,
+			);
+			path = KenLabel;
+			sourceTree = "<group>";
+		};
+		95F65C761F8E0AA400ECB006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95F65C771F8E0AA400ECB006 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95F65C8F1F8E0AA600ECB006 /* KenLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				95F65C901F8E0AA700ECB006 /* KenLabelTests.m */,
+				95F65C921F8E0AA700ECB006 /* Info.plist */,
+			);
+			path = KenLabelTests;
+			sourceTree = "<group>";
+		};
+		95F65C9A1F8E0AA700ECB006 /* KenLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95F65C9B1F8E0AA700ECB006 /* KenLabelUITests.m */,
+				95F65C9D1F8E0AA700ECB006 /* Info.plist */,
+			);
+			path = KenLabelUITests;
+			sourceTree = "<group>";
+		};
+		95F65CA91F8E0AE300ECB006 /* KenLabel */ = {
+			isa = PBXGroup;
+			children = (
+				95F65CAA1F8E0AF700ECB006 /* KenLabel.h */,
+				95F65CAB1F8E0AF700ECB006 /* KenLabel.m */,
+				95F65CAD1F8E0C1800ECB006 /* KenLabelModel.h */,
+				95F65CAE1F8E0C1800ECB006 /* KenLabelModel.m */,
+			);
+			path = KenLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95F65C721F8E0AA400ECB006 /* KenLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F65CA01F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabel" */;
+			buildPhases = (
+				95F65C6F1F8E0AA400ECB006 /* Sources */,
+				95F65C701F8E0AA400ECB006 /* Frameworks */,
+				95F65C711F8E0AA400ECB006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KenLabel;
+			productName = KenLabel;
+			productReference = 95F65C731F8E0AA400ECB006 /* KenLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95F65C8B1F8E0AA600ECB006 /* KenLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F65CA31F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabelTests" */;
+			buildPhases = (
+				95F65C881F8E0AA600ECB006 /* Sources */,
+				95F65C891F8E0AA600ECB006 /* Frameworks */,
+				95F65C8A1F8E0AA600ECB006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F65C8E1F8E0AA600ECB006 /* PBXTargetDependency */,
+			);
+			name = KenLabelTests;
+			productName = KenLabelTests;
+			productReference = 95F65C8C1F8E0AA600ECB006 /* KenLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95F65C961F8E0AA700ECB006 /* KenLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95F65CA61F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabelUITests" */;
+			buildPhases = (
+				95F65C931F8E0AA700ECB006 /* Sources */,
+				95F65C941F8E0AA700ECB006 /* Frameworks */,
+				95F65C951F8E0AA700ECB006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F65C991F8E0AA700ECB006 /* PBXTargetDependency */,
+			);
+			name = KenLabelUITests;
+			productName = KenLabelUITests;
+			productReference = 95F65C971F8E0AA700ECB006 /* KenLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95F65C6B1F8E0AA400ECB006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ken;
+				TargetAttributes = {
+					95F65C721F8E0AA400ECB006 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+					};
+					95F65C8B1F8E0AA600ECB006 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F65C721F8E0AA400ECB006;
+					};
+					95F65C961F8E0AA700ECB006 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65X7FVM522;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 95F65C721F8E0AA400ECB006;
+					};
+				};
+			};
+			buildConfigurationList = 95F65C6E1F8E0AA400ECB006 /* Build configuration list for PBXProject "KenLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95F65C6A1F8E0AA400ECB006;
+			productRefGroup = 95F65C741F8E0AA400ECB006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95F65C721F8E0AA400ECB006 /* KenLabel */,
+				95F65C8B1F8E0AA600ECB006 /* KenLabelTests */,
+				95F65C961F8E0AA700ECB006 /* KenLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95F65C711F8E0AA400ECB006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F65C861F8E0AA500ECB006 /* LaunchScreen.storyboard in Resources */,
+				95F65C831F8E0AA500ECB006 /* Assets.xcassets in Resources */,
+				95F65C811F8E0AA500ECB006 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C8A1F8E0AA600ECB006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C951F8E0AA700ECB006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95F65C6F1F8E0AA400ECB006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F65C7E1F8E0AA400ECB006 /* ViewController.m in Sources */,
+				95F65CAF1F8E0C1800ECB006 /* KenLabelModel.m in Sources */,
+				95F65C7B1F8E0AA400ECB006 /* AppDelegate.m in Sources */,
+				95F65C781F8E0AA400ECB006 /* main.m in Sources */,
+				95F65CAC1F8E0AF700ECB006 /* KenLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C881F8E0AA600ECB006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F65C911F8E0AA700ECB006 /* KenLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95F65C931F8E0AA700ECB006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F65C9C1F8E0AA700ECB006 /* KenLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95F65C8E1F8E0AA600ECB006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F65C721F8E0AA400ECB006 /* KenLabel */;
+			targetProxy = 95F65C8D1F8E0AA600ECB006 /* PBXContainerItemProxy */;
+		};
+		95F65C991F8E0AA700ECB006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95F65C721F8E0AA400ECB006 /* KenLabel */;
+			targetProxy = 95F65C981F8E0AA700ECB006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95F65C7F1F8E0AA500ECB006 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F65C801F8E0AA500ECB006 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95F65C841F8E0AA500ECB006 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95F65C851F8E0AA500ECB006 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95F65C9E1F8E0AA700ECB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95F65C9F1F8E0AA700ECB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95F65CA11F8E0AA700ECB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95F65CA21F8E0AA700ECB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95F65CA41F8E0AA700ECB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenLabel.app/KenLabel";
+			};
+			name = Debug;
+		};
+		95F65CA51F8E0AA700ECB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KenLabel.app/KenLabel";
+			};
+			name = Release;
+		};
+		95F65CA71F8E0AA700ECB006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KenLabel;
+			};
+			name = Debug;
+		};
+		95F65CA81F8E0AA700ECB006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65X7FVM522;
+				INFOPLIST_FILE = KenLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ken.KenLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KenLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95F65C6E1F8E0AA400ECB006 /* Build configuration list for PBXProject "KenLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F65C9E1F8E0AA700ECB006 /* Debug */,
+				95F65C9F1F8E0AA700ECB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95F65CA01F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F65CA11F8E0AA700ECB006 /* Debug */,
+				95F65CA21F8E0AA700ECB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95F65CA31F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F65CA41F8E0AA700ECB006 /* Debug */,
+				95F65CA51F8E0AA700ECB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95F65CA61F8E0AA700ECB006 /* Build configuration list for PBXNativeTarget "KenLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95F65CA71F8E0AA700ECB006 /* Debug */,
+				95F65CA81F8E0AA700ECB006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95F65C6B1F8E0AA400ECB006 /* Project object */;
+}
